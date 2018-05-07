@@ -1,4 +1,4 @@
-# python port w/ enhances by da3a16
+# python port w/ enhancements by da3a16
 forked from https://github.com/xzer/wlanprofilemanager
 
 # Features
