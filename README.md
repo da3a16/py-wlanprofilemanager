@@ -12,4 +12,4 @@
         - start at: event
         - basic, log: Microsoft-Windows-WLAN-AutoConfig/Operational
         - source: WLAN-AutoConfig
-        - event id: 11001
+        - event id: 

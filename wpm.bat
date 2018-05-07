@@ -1,3 +1,6 @@
 set workdir=%~dp0
 cd %workdir%
-python wpm.py > wpm.log 2>&1
+where python > tmp
+set /p PYPATH= < tmp
+del tmp
+%PYPATH% wpm.py > wpm.log 2>&1
