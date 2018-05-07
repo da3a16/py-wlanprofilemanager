@@ -10,13 +10,16 @@ Flexible config:
 - IP via DHCP, static DNS
 - Full DHCP
 
+# Requirements
+
+- python >= 3.6
+
 # How to use
 
--install python >= 3.6
--clone this repository
--add your own profile to profiles.config
--register a task in task scheduler(control panel->administration tools->task scheduler)
-    - set wpm.bat as the operation of the task
+- clone this repository
+- add your own profile to profiles.config
+- register a task in task scheduler(control panel->administration tools->task scheduler)
+    - set thisrepo/wpm.bat as the operation of the task
     - make sure the task will be executed by user "SYSTEM"
     - define the trigger as following:
         - start at: event
